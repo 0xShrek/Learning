@@ -1,0 +1,3 @@
+var CatWeight = 10;
+var Weight = 71;
+console.log(Weight/CatWeight);
