@@ -1,0 +1,10 @@
+function genName(word) {
+    var firstName = word + "y";
+    var lastName = "Mc" + word + "Face";
+    var fullName = firstName + " " + lastName;
+    println(fullName.toUpperCase());
+}
+
+genName("Ass");
+genName("Degen");
+genName("Scam");
