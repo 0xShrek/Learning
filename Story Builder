@@ -1,0 +1,10 @@
+function tellStory(creature, place, verb, object, adjective, noun, emotion, job, adjective2, verb2, timeOfDay) {
+    println("Once upon a time, there was a " + creature + ".");
+    println("Every day, the " + creature + " would go to " + place + " and " + verb + ".");
+    println("Until one day, they stepped on a " + object + " and turned into a " + adjective + " " + noun + ".");
+    println("Because of that, they felt " + emotion + " and became a " + job + ".");
+    println("So that finally, everyone thought they were " + adjective2 + "!");
+    println("The moral of story is: always " + verb2 + " in the " + timeOfDay + ".");
+}
+
+tellStory("walrus", "DisneyLand", "surf", "Xmas tree", "fluffy", "flower", "angry", "lawyer", "spiky", "scuttle", "morning");
