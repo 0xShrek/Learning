@@ -1,0 +1,9 @@
+location_of_will_to_live="Thicc 2D Anime Girls"
+locations = ["Friends", "Family", "World Domination", "Money", "Thicc 2D Anime Girls"]
+for i in locations:
+    if i == location_of_will_to_live:
+        print("Will to live is found in", i)
+        break
+    else:
+        print("Will to live is not found in", i)
+        
